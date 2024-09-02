@@ -1,11 +1,24 @@
 body {
+    /* Display declarations */
     display: flex;
+    flex-direction: column;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
     justify-content: center;
     align-items: center;
+
+    /* CBPM */
+    padding: 0; /* CSS Reset */
+    margin: 0;  /* CSS Reset */
+}
+
+.header {
+    /* CBPM */
+    padding: 24px;
+}
+
+.grid-size-button {
+    /* CBPM */
+    padding: 4px 12px;
 }
 
 .container {
@@ -22,16 +35,6 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: #FF0000;
-}
-
-.test-block {
-    display: flex;
-
-    width: 58px;
-    height: 58px;
-    
-    /* Debug borders */
-    border-style: solid;
-    border-width: 2px;
-    border-color: #00FF00;
+    /* Left this in because kinda need a border but too
+    lazy to actually style. lmfao */
 }
