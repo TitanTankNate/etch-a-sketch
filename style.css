@@ -1,0 +1,16 @@
+.container {
+    /* Display declarations */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Transform and constraints */
+    max-width: 90vw;
+    max-height: 90vh;
+    aspect-ratio: 1 / 1;
+
+    /* Debug borders */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FF0000;
+}
