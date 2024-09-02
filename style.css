@@ -1,18 +1,22 @@
 body {
+    display: flex;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     /* Display declarations */
     display: flex;
+    flex: 0;
     flex-wrap: wrap;
 
     /* Transform and constraints */
-    max-width: 90vw;
-    max-height: 90vh;
-    aspect-ratio: 1 / 1;
+    width: 800px;
+    height: 800px;
 
     /* Debug borders */
     border-style: solid;
